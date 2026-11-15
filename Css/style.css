@@ -1,0 +1,666 @@
+
+/* Common CSS start here*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FFFAF5;
+    color: #24243A;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+/* Common CSS Ead here*/
+
+/*  Header Part Start here*/
+
+#headerpart {
+    width: 100%;
+    padding: 22px 0;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: 800;
+    color: #FF8A35;
+}
+
+.logo i {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.logo span {
+    color: #56BFC0;
+}
+
+.mainMenu ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.mainMenu ul li a {
+    font-size: 16px;
+    color: #777;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.mainMenu ul li a:hover,
+.mainMenu ul li a.active {
+    color: #FF8A35;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.loginBtn {
+    font-size: 16px;
+    color: #555;
+}
+
+.signupBtn {
+    padding: 9px 22px;
+    background: #FF8A35;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+}
+/* Header part End here */
+
+/* Banner Part Start here */
+
+#bannerpart {
+    padding: 65px 0 100px;
+}
+
+.bannerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerText {
+    width: 50%;
+    position: relative;
+}
+
+.pawIcon {
+    color: #FFB17F;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.bannerText h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #24243A;
+    margin-bottom: 22px;
+}
+
+.bannerText p {
+    width: 390px;
+    font-size: 16px;
+    line-height: 2;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.bannerButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.primaryBtn {
+    display: inline-block;
+    background: #FF8A35;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.primaryBtn:hover {
+    background: #EA6E1E;
+}
+
+.outlineBtn {
+    display: inline-block;
+    padding: 11px 24px;
+    border: 1px solid #DDD;
+    border-radius: 30px;
+    color: #555;
+    font-size: 12px;
+}
+
+.bannerNote {
+    margin-top: 30px;
+    margin-left: 90px;
+    color: #6B6B91;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bannerNote i {
+    color: #FF8A35;
+    margin-right: 8px;
+    transform: rotate(-40deg);
+}
+
+.bannerImage {
+    width: 50%;
+    height: 340px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCircle {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background: #FFE0CD;
+    position: relative;
+    z-index: 2;
+}
+
+.circleBorder {
+    width: 320px;
+    height: 320px;
+    border: 2px solid #FFE8DC;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.bannerPaw {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    color: #FFB17F;
+    font-size: 22px;
+}
+
+/* Banner Part End here */
+/* =========================
+   Common Section Heading
+========================= */
+
+.sectionHeading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.headingPaw {
+    font-size: 35px;
+    color: #FFB17F;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sectionHeading h2 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #24243A;
+    margin-bottom: 12px;
+}
+
+.sectionHeading p {
+    width: 430px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #888;
+}
+
+
+/* =========================
+   Service Part
+========================= */
+
+#servicepart {
+    padding: 65px 0 90px;
+}
+
+.serviceFlex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.serviceCard {
+    width: 25%;
+    min-height: 220px;
+    background: #fff;
+    padding: 30px 18px;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 7px 18px rgba(0,0,0,0.04);
+    transition: 0.3s;
+}
+
+.serviceCard:hover {
+    transform: translateY(-8px);
+}
+
+.serviceIcon {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 18px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.blue {
+    background: #2998ED;
+}
+
+.orange {
+    background: #FF8A35;
+}
+
+.green {
+    background: #50CDA5;
+}
+
+.yellow {
+    background: #F7C928;
+}
+
+.serviceCard h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.serviceCard p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #888;
+}
+
+.activeService {
+    background: linear-gradient(180deg, #FFB17F, #FF781F);
+    color: #fff;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(255,138,53,0.2);
+}
+
+.activeService p {
+    color: #fff;
+}
+
+
+/* =========================
+   Package Part
+========================= */
+
+#packagepart {
+    padding: 65px 0 100px;
+}
+
+.packageHeading {
+    margin-bottom: 55px;
+}
+
+.packageFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.packageCard {
+    width: 33.33%;
+    min-height: 350px;
+    padding: 35px 25px;
+    text-align: center;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 7px 18px rgba(0,0,0,0.06);
+    position: relative;
+}
+
+.packageCard h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #FF8A35;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.price sup {
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.price sub {
+    font-size: 16px;
+    color: #999;
+    font-weight: 400;
+}
+
+.packageCard ul li {
+    font-size: 11px;
+    color: #777;
+    line-height: 2.5;
+}
+
+.packageBtn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 35px;
+    background: #FF8A35;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* Featured Package */
+
+.featuredPackage {
+    width: 37%;
+    min-height: 440px;
+    background: linear-gradient(180deg, #FFB17F, #FF791E);
+    color: #fff;
+    z-index: 2;
+    padding: 35px 25px;
+    box-shadow: 0 12px 25px rgba(255,138,53,0.2);
+}
+
+.featuredPackage h3,
+.featuredPackage .price,
+.featuredPackage ul li {
+    color: #fff;
+}
+
+.featuredPackage .price sub {
+    color: #fff;
+}
+
+.featuredPackage .packageBtn {
+    background: #fff;
+    color: #FF8A35;
+    padding: 12px 45px;
+}
+
+
+/* =========================
+   Testimonial Part
+========================= */
+
+#testimonialpart {
+    padding: 50px 0 100px;
+}
+
+.testimonialFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+}
+
+.testimonialImage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonialCircle {
+    width: 380px;
+    height: 350px;
+    background: #FFE0CD;
+    border-radius: 48% 52% 45% 55%;
+    position: relative;
+}
+
+.testimonialCircle::before {
+    content: "";
+    width: 400px;
+    height: 370px;
+    border: 2px solid #FFE9DF;
+    border-radius: 48% 52% 45% 55%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.testimonialText {
+    width: 50%;
+}
+
+.customerInfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.customerAvatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #FFE0CD;
+}
+
+.customerInfo h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.customerInfo h3 i {
+    color: #FF8A35;
+    margin-left: 5px;
+}
+
+.customerInfo span {
+    font-size: 16px;
+    color: #999;
+}
+
+.testimonialText p {
+    font-size: 16px;
+    line-height: 2;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.reviewButtons {
+    display: flex;
+    gap: 12px;
+}
+
+.reviewButtons a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #FFB17F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF8A35;
+    font-size: 16px;
+}
+
+
+/* =========================
+   Special Gift Part
+========================= */
+
+#giftpart {
+    padding: 30px 0 70px;
+}
+
+.giftBox {
+    background: #fff;
+    min-height: 230px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 45px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+}
+
+.giftText {
+    width: 60%;
+    position: relative;
+    z-index: 2;
+}
+
+.giftText h2 {
+    font-size: 24px;
+    color: #FF8A35;
+    margin-bottom: 15px;
+}
+
+.giftText p {
+    width: 420px;
+    font-size: 16px;
+    color: #888;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.giftImage {
+    width: 350px;
+    height: 240px;
+    position: absolute;
+    right: -5px;
+    bottom: -90px;
+    background: #FFB17F;
+    border-radius: 55% 45% 0 0;
+    transform: rotate(-10deg);
+}
+
+.giftImage i {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #FFE0CD;
+    font-size: 25px;
+    transform: rotate(10deg);
+}
+
+
+/* =========================
+   Footer Part
+========================= */
+
+#footerpart {
+    background: #fff;
+    padding: 55px 0 20px;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding-bottom: 40px;
+}
+
+.footerAbout {
+    width: 32%;
+}
+
+.footerAbout p {
+    width: 240px;
+    font-size: 16px;
+    line-height: 2;
+    color: #999;
+    margin-top: 20px;
+}
+
+.footerColumn {
+    width: 20%;
+}
+
+.footerColumn h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footerColumn ul li {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 12px;
+}
+
+.footerColumn ul li a {
+    color: #999;
+    transition: 0.3s;
+}
+
+.footerColumn ul li a:hover {
+    color: #FF8A35;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.socialIcons a {
+    width: 30px;
+    height: 30px;
+    background: #FFF0E7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF8A35;
+    font-size: 12px;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #F3EDE8;
+    padding-top: 20px;
+}
+
+.copyright p {
+    font-size: 10px;
+    color: #999;
+}
+
+
